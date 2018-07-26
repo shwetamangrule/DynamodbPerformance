@@ -1,0 +1,8 @@
+com\mongo\PerformanceTest\DynamoDBConfig\AmazonDynamoDB$1.class
+com\mongo\PerformanceTest\model\User.class
+com\mongo\PerformanceTest\DynamoDBConfig\AmazonDynamoDB.class
+com\mongo\PerformanceTest\service\UserServiceImpl.class
+com\mongo\PerformanceTest\dao\Repository.class
+com\mongo\PerformanceTest\service\IUserService.class
+com\mongo\PerformanceTest\controller\UserController.class
+com\mongo\PerformanceTest\PerformanceTestApplication.class
