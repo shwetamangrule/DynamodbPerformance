@@ -38,7 +38,7 @@ import com.amazonaws.util.StringUtils;
 //			})).build();
 //
 @Configuration
-@EnableDynamoDBRepositories(basePackages = "com.javasampleapproach.dynamodb.repo")
+@EnableDynamoDBRepositories(basePackages = "com.mongo.PerformanceTest.dao")
 public class DynamoDBConfig {
  
 	@Value("${amazon.dynamodb.endpoint}")
