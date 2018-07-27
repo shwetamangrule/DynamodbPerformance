@@ -25,7 +25,7 @@ public class UserServiceImpl implements IUserService
 	public int createUser(User user) {
 		// TODO Auto-generated method stub
 		long start = System.currentTimeMillis();
-		for (int i = 0; i < 1000; i++) 
+		for (int i = 0; i < 10000; i++) 
 		{
 			user.setId(String.valueOf(new Random()));
 			User users = repository.save(user);
@@ -60,8 +60,8 @@ public class UserServiceImpl implements IUserService
 		// TODO Auto-generated method stub
 		Optional<User> users =repository.findById(user.getId());
 		User user1 = users.get();
-		user1.setAge(user.getAge());
-    	user1.setEmail(user.getEmail());
+		//user1.setAge(user.getAge());
+    	//user1.setEmail(user.getEmail());
     	user1.setName(user.getName());
     	user1.setId(user.getId());
 		repository.save(user);
